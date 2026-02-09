@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 49px 119px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.p1 {
+  font-family: Mada;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 63px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.sapm {
+  width: 305px;
+  height: 108px;
+  border-width: 2px;
+  border-radius: 59px;
+  padding-top: 13px;
+  padding-right: 26px;
+  padding-bottom: 13px;
+  padding-left: 26px;
+  color: white;
+  background: linear-gradient(90deg, #9500ff 49.84%, #cc00ff 100%);
+}
+.p2 {
+  font-family: Mada;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 29px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.btn {
+  width: 363px;
+  height: 114px;
+  border-width: 5px;
+  gap: 10px;
+  border-radius: 59px;
+  padding-top: 20px;
+  padding-right: 43px;
+  padding-bottom: 20px;
+  padding-left: 43px;
+  font-family: Mada;
+  font-weight: 500;
+  font-style: Bold;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  border: 5px solid #9500ff;
+  color: #9500ff;
+  background: none;
+}
+.sadula {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer, img{
+    margin-left: 120px;
+}
